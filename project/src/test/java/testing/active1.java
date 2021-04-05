@@ -15,7 +15,7 @@ public class active1 {
 		options.addArguments("headless");
 		WebDriver driver=new ChromeDriver();
 		// Launch website  
-	    driver.navigate().to("http://192.168.43.251:49154/"); 
+	    driver.navigate().to("http://192.168.43.251:49153/"); 
 	 // Click on the search text box and send value  
 	    driver.findElement(By.id("About Us")).click();
 	    WebElement TxtBoxContent = driver.findElement(By.id("PID-ab2-pg"));
